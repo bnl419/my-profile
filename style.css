@@ -1,0 +1,51 @@
+body{ background-color: white;
+color: rgb(50,50,50);
+font-family: roboto;
+font-size: 16px; }
+h1{ color: rgb(50,50,50); }
+
+h2{ color: #F64C72 }
+
+a{color: #0066CC;
+font-size: 60px;}
+
+a:hover {color: grey;}
+
+div{
+border: 1px solid grey;
+box-shadow: 0px 5px 3px rgb(0,0,0,0.1);
+margin: 40px auto;
+text-align: center;
+padding: 30px;
+border-radius: 5px;
+width: 900px;}
+
+@media (max-width: 900px){div{width: 600px}}
+
+@media (max-width: 700px){div{width: 400px}}
+
+div:hover {box-shadow: 0px 5px 3px black}
+
+#photo-round{border-radius: 60%}
+
+.list{list-style: none;
+padding-left: 0px;
+}
+
+.list li{
+padding: 10px;}
+
+.banner{background-image: url(images/IMG_4907.jpg);
+color: white;
+padding: 500px;}
+
+.listligne{display: inline;
+list-style: none;}
+
+#button-blue{background-color: #0066CC;
+  font-size: 20px;
+ width: 180px;
+ height: 60px;
+ border-radius: 5%;
+color: white;
+}
